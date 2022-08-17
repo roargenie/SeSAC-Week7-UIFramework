@@ -11,6 +11,10 @@
 		F6AA18A428AB1BC400F1876D /* SeSAC_Week7_UIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6AA189928AB1BC400F1876D /* SeSAC_Week7_UIFramework.framework */; };
 		F6AA18A928AB1BC400F1876D /* SeSAC_Week7_UIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA18A828AB1BC400F1876D /* SeSAC_Week7_UIFrameworkTests.swift */; };
 		F6AA18AA28AB1BC400F1876D /* SeSAC_Week7_UIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F6AA189C28AB1BC400F1876D /* SeSAC_Week7_UIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6AA18B428AB1C2A00F1876D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA18B328AB1C2A00F1876D /* Alert.swift */; };
+		F6AA18E328AB284900F1876D /* ReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA18E228AB284900F1876D /* ReusableProtocol.swift */; };
+		F6AA18E528AB293000F1876D /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA18E428AB293000F1876D /* ActivityViewController.swift */; };
+		F6AA18E728AB2A2100F1876D /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA18E628AB2A2100F1876D /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		F6AA189D28AB1BC400F1876D /* SeSAC_Week7_UIFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SeSAC_Week7_UIFramework.docc; sourceTree = "<group>"; };
 		F6AA18A328AB1BC400F1876D /* SeSAC Week7 UIFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SeSAC Week7 UIFrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AA18A828AB1BC400F1876D /* SeSAC_Week7_UIFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSAC_Week7_UIFrameworkTests.swift; sourceTree = "<group>"; };
+		F6AA18B328AB1C2A00F1876D /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		F6AA18E228AB284900F1876D /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
+		F6AA18E428AB293000F1876D /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		F6AA18E628AB2A2100F1876D /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,10 @@
 			children = (
 				F6AA189C28AB1BC400F1876D /* SeSAC_Week7_UIFramework.h */,
 				F6AA189D28AB1BC400F1876D /* SeSAC_Week7_UIFramework.docc */,
+				F6AA18B328AB1C2A00F1876D /* Alert.swift */,
+				F6AA18E228AB284900F1876D /* ReusableProtocol.swift */,
+				F6AA18E428AB293000F1876D /* ActivityViewController.swift */,
+				F6AA18E628AB2A2100F1876D /* WebView.swift */,
 			);
 			path = "SeSAC Week7 UIFramework";
 			sourceTree = "<group>";
@@ -194,7 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AA18B428AB1C2A00F1876D /* Alert.swift in Sources */,
+				F6AA18E728AB2A2100F1876D /* WebView.swift in Sources */,
 				F6AA189E28AB1BC400F1876D /* SeSAC_Week7_UIFramework.docc in Sources */,
+				F6AA18E328AB284900F1876D /* ReusableProtocol.swift in Sources */,
+				F6AA18E528AB293000F1876D /* ActivityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +412,7 @@
 		F6AA18B128AB1BC400F1876D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FJNF7APGSX;
@@ -412,6 +429,7 @@
 		F6AA18B228AB1BC400F1876D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FJNF7APGSX;
